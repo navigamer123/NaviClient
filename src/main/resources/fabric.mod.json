@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "axolotlv1",
+  "version": "${version}",
+  "name": "AxolotlV1",
+  "description": "A mod that draws beacon beams on top of every axolotl in render distance.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/axolotlv1/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.navigamer.axolotlv1.client.Axolotlv1DataGenerator"
+    ],
+    "client": [
+      "org.navigamer.axolotlv1.client.Axolotlv1Client"
+    ],
+    "main": [
+      "org.navigamer.axolotlv1.Axolotlv1"
+    ],
+    "modmenu": [
+      "org.navigamer.axolotlv1.client.GUIConfigModMenu"
+    ]
+  },
+  "mixins": [
+    "axolotlv1.mixins.json",
+    {
+      "config": "axolotlv1.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "cloth-config2": ">=15.0.140",
+    "modmenu": "*"
+
+  }
+}

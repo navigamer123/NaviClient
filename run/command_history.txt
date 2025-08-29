@@ -1,0 +1,50 @@
+/kill @e
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl1"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/tick rate 1
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/tick rate 20
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"yellow"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"null"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"&yAxolotl"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"&&yAxolotl"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"Axolotl","color":"red"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"&4Axolotl"}}
+/data merge entity @e[type=minecraft:axolotl,limit=1,sort=nearest] {CustomName:{"text":"&3Axolotl"}}
+/wd
+/warp galatea
+/fl
+/warp garden
+/bz
+/navi
+/bz
+/navi
+/summon minecraft:zombie
+/summon minecraft:turtle
+/hub
+/warp galatea
+/msg dj_donki
+/r ima nowa wersiq na moda
